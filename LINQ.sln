@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQ", "LINQ\LINQ.csproj", "{FA3ADB98-0820-470A-93FC-B255B235380B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ`", "LINQ`\LINQ`.csproj", "{4774BF89-B1F1-4F14-B915-53EF834B7D70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQ`", "LINQ`\LINQ`.csproj", "{4774BF89-B1F1-4F14-B915-53EF834B7D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort", "Sort\Sort.csproj", "{7D57FC0A-1BC1-4451-9E8B-36914018F101}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4774BF89-B1F1-4F14-B915-53EF834B7D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4774BF89-B1F1-4F14-B915-53EF834B7D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4774BF89-B1F1-4F14-B915-53EF834B7D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D57FC0A-1BC1-4451-9E8B-36914018F101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D57FC0A-1BC1-4451-9E8B-36914018F101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D57FC0A-1BC1-4451-9E8B-36914018F101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D57FC0A-1BC1-4451-9E8B-36914018F101}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

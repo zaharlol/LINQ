@@ -187,6 +187,8 @@ class Phone
                     page = phoneBook.Skip(4).Take(2);
                     break;
             }
+            page = page.OrderBy(s => s.Name).ThenBy(s => s.LastName);
+
             foreach (var s in page)
             {
                 Console.WriteLine(s.Name + " " + s.LastName + " " + s.PhoneNumber + " " + s.Email);
